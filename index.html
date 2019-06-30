@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inlämningsuppgift</title>
+	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="char">
+			<img src="img/sadiette.png" id="charPic"><br />
+				<div class="chosenItems">
+				<img src="img/no_item.png" class="char_item" id="char_item101">
+				<img src="img/no_item.png" class="char_item" id="char_item102">
+				<img src="img/no_item.png" class="char_item" id="char_item103">
+			</div>
+			<img src="img/fem.png" class="genderPictures" onclick="femGender()">
+			<img src="img/male.png" class="genderPictures" onclick="maleGender()"> <br />
+			<form>
+				<input type="text" id="nameInput" autocomplete="off">
+				<button onclick="chName()">change name</button>
+			</form>
+			<h2>- gear -</h2>
+			<h3>choose 1 item from every section</h3>
+			<div class="itemSection">
+				<span id="hpInfo">hp:</span>
+				<span id="speedInfo">speed:</span>
+				<span id="attackInfo">attack:</p>
+			</div>
+			<div class="itemSection">
+				<img src="img/spear.png" class="item1" id="item101">
+				<img src="img/axe.png" class="item1" id="item102">
+				<img src="img/helmet.png" class="item1" id="item103">
+			</div>
+			<div class="itemSection">
+				<img src="img/document.png" class="item2" id="item201">
+				<img src="img/tools.png" class="item2" id="item202">
+				<img src="img/armor.png" class="item2" id="item203">
+			</div>
+			<div class="itemSection">
+				<img src="img/pot_red.png" class="item3" id="item301">
+				<img src="img/pot_green.png" class="item3"id="item302">
+				<img src="img/shield.png" class="item3"id="item303">
+			</div>
+	<script src="script.js"></script>
+</body>
+</html>

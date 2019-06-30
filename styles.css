@@ -1,0 +1,94 @@
+html {
+}
+body {
+	background: url(img/bg.jpeg);
+  	background-repeat: no-repeat;
+  	background-size: auto;
+  	font-family: 'Major Mono Display', monospace;
+  	color: #b4ad90;
+}
+.container {
+    min-width: 500px;
+	width: 300px;
+   	margin: auto;
+	background-color: rgba(35, 42, 34, 0.8);
+	border: #232a22 3px solid;
+	border-radius: 15px;
+
+}
+h1, h2 {
+	line-height: 0px;
+	box-sizing:border-box;
+	margin: 5px 0px 5px 0px;
+}
+.char {
+	margin-top: 10px;
+	text-align: center;
+}
+form {
+	display: inline-block;
+	margin: 10px;
+}
+#charPic {
+	background-color: rgba(13, 13, 12, 0.2);
+	border: #232a22 3px solid;
+	border-radius: 15px;
+}
+.genderPictures {
+	width: 50px;
+	display: inline;
+}
+input, button {
+	text-align: center;
+	box-sizing:border-box;
+	width: 160px;
+	height: 30px;
+	display: block;
+	margin: 5px;
+	background-color: rgba(13, 13, 12, 0.2);
+	border: #232a22 3px solid;
+	border-radius: 15px;
+	font-weight: bold;
+	font-family: 'Major Mono Display', monospace;
+	color: #b4ad90;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.item1, .item2, .item3, .char_item {
+	width: 45px;
+	padding: 5px;
+	margin: 3px 10px 3px 10px;
+	background-color: rgba(13, 13, 12, 0.2);
+	border: #232a22 3px solid;
+	border-radius: 15px;
+}
+.itemSection {
+	margin: 0 auto 10px auto;
+	text-align: center;
+	box-sizing:border-box;
+	max-width: 281px;
+	min-height: 50px;
+	background-color: rgba(13, 13, 12, 0.2);
+	border: #232a22 3px solid;
+	border-radius: 15px;
+}
+.chosenItems {
+	margin: 0 auto 10px auto;
+	text-align: center;
+	box-sizing:border-box;
+	max-width: 281px;
+	min-height: 50px;
+	background-color: rgba(13, 13, 12, 0.2);
+	border: #232a22 3px solid;
+	border-radius: 15px;
+
+}
+.item1:hover, .item2:hover, .item3:hover {
+	border: orange 3px solid;
+	border-radius: 15px;
+
+}
